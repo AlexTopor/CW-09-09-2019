@@ -1,0 +1,25 @@
+
+
+body {
+	text-align: center;
+}
+.zebra {
+	background: yellow;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 1px;
+	font-size: 20px;
+	
+}
+.zebra:nth-child(2n) {
+	font-size: 20px;
+	background: green;
+}
+.zebra:nth-last-child(-n+3) {
+	background: red;
+}
+
+.test>a {
+	color: white;
+	background: grey;
+}
